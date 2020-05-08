@@ -11,9 +11,9 @@ module.exports = function validRGBCoordinate(num) {
 
 function randomIntBounded(min=0, max=256) {
     return BigInt(Math.floor(Math.random() * (Math.floor(max) - Math.floor(min))) + min);
-}
+};
 
 module.exports = function randomRGB() {
-    let r = randIntBounded(), g = randIntBounded(), b = randIntBounded();
+    let r = randomIntBounded(), g = randomIntBounded(), b = randomIntBounded();
     return `rgb(${r},${g},${b})`;
 };
