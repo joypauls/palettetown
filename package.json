@@ -1,6 +1,6 @@
 {
   "name": "palettetown",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "rad color tools and junk",
   "main": "index.js",
   "scripts": {
